@@ -1,0 +1,54 @@
+name: weather_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  cached_network_image: ^3.2.3
+  dio: ^5.1.1
+  dio_cache_interceptor: ^3.4.2
+  dio_cache_interceptor_hive_store: ^3.2.1
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.3.6
+  get_storage: ^2.1.1
+  google_fonts: ^4.0.4
+  intl: ^0.18.1
+  path_provider: ^2.0.14
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_native_splash: ^2.2.19
+  icons_launcher: ^2.1.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+flutter_native_splash:
+
+
+  background_image: assets/images/splash_screen_light.png
+
+
+
+  
+  android: true
+
+  fullscreen: true
+
+icons_launcher:
+  image_path: "assets/logo/logo.png"
+  platforms:
+    android:
+      enable: true
+    ios:
+      enable: true
+ 
